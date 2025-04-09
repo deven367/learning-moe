@@ -1,0 +1,14 @@
+[project]
+name = "learning-moe"
+version = "0.0.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+learning-moe = "learning_moe:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
